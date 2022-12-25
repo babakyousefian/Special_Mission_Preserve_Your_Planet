@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6580094975273013335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6580094975273013334}
+  - component: {fileID: 6580094975273013329}
+  m_Layer: 0
+  m_Name: ShipRepository
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6580094975273013334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580094975273013335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6580094975273013329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580094975273013335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c1877a219120b4c9073b3b33ff9fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ships:
+  - key: 0
+    ship: {fileID: 5879654693354687596, guid: 4a11a013160ff664aa00e47d7af3fa39, type: 3}
+    speed: 6
+    health: 3
+    guns: 1
+    bulletPower: 1
+    model: WO-Green-20
+    bulletType: 0
+    price: 0
+    isLocked: 0
+    fireRate: 0.7
+    sprite: {fileID: -9046285392685586307, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 1
+    ship: {fileID: 4996073643567697290, guid: 27be3e504aa42dc46b36a604008954fd, type: 3}
+    speed: 6
+    health: 3
+    guns: 2
+    bulletPower: 1
+    model: WO-Green-30
+    bulletType: 0
+    price: 40
+    isLocked: 1
+    fireRate: 0.65
+    sprite: {fileID: -8563559167548432157, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 2
+    ship: {fileID: 641865830280818978, guid: a056040a8b3f9db4ba26f15b593ee90a, type: 3}
+    speed: 6
+    health: 3
+    guns: 3
+    bulletPower: 1
+    model: WO-Green-40
+    bulletType: 0
+    price: 80
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: 4123688382646925174, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 3
+    ship: {fileID: 7478771719290186232, guid: 6897ce80e5a6c18448842b7c5c47b160, type: 3}
+    speed: 8
+    health: 4
+    guns: 1
+    bulletPower: 2
+    model: WS-Red-500
+    bulletType: 1
+    price: 120
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: 8704017464482673183, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 4
+    ship: {fileID: 2825438718527543959, guid: daab59fc09d917e498bc5722e608e059, type: 3}
+    speed: 8
+    health: 4
+    guns: 2
+    bulletPower: 2
+    model: WS-Red-600
+    bulletType: 1
+    price: 180
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: 7828046652550468600, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 5
+    ship: {fileID: 1437420620102575004, guid: f771e74a4a2c6624eb9ff216c91b53b9, type: 3}
+    speed: 8
+    health: 4
+    guns: 3
+    bulletPower: 2
+    model: WS-Red-700
+    bulletType: 1
+    price: 250
+    isLocked: 1
+    fireRate: 0.6
+    sprite: {fileID: -2487674675010032997, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 6
+    ship: {fileID: 7207878336591064784, guid: 4b9a69f5a317e1b41ba3790f0078aef1, type: 3}
+    speed: 10
+    health: 6
+    guns: 1
+    bulletPower: 3
+    model: WX-Blue-1000
+    bulletType: 2
+    price: 320
+    isLocked: 1
+    fireRate: 0.4
+    sprite: {fileID: -4890772358571763132, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 7
+    ship: {fileID: 3506524517721448392, guid: 3c4d9b3c9f4d3894eaed3d84204a786c, type: 3}
+    speed: 10
+    health: 6
+    guns: 2
+    bulletPower: 3
+    model: WX-Blue-1500
+    bulletType: 2
+    price: 430
+    isLocked: 1
+    fireRate: 0.4
+    sprite: {fileID: -3545337513245253891, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
+  - key: 8
+    ship: {fileID: 4180177437215403361, guid: 2bef11aa6f988264f8212106d3899946, type: 3}
+    speed: 10
+    health: 6
+    guns: 3
+    bulletPower: 3
+    model: WX-Blue-2000
+    bulletType: 2
+    price: 500
+    isLocked: 1
+    fireRate: 0.4
+    sprite: {fileID: 929229225866316101, guid: 42dff18ace7720c49b0832687f1a78bf, type: 3}
